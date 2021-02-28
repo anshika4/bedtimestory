@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, ScrollView, TouchableOpacity,SafeAreaView } from 'react-native';
 import { SearchBar } from 'react-native-elements';
-import db from './config';
+import db from '../config';
 
 export default class ReadStoryScreen extends React.Component {
 constructor() {
@@ -107,7 +107,6 @@ flex:1,
 backgroundColor: 'pink',
 },
 story:{
-fontFamily:'bold',
 fontSize:20,
 },
 searchBar:{
